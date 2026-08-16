@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[dependencies.lycanoculus]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.lycanoculus]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.lycanoculus]]
+    modId="lycanitesmobs"
+    mandatory=false
+    versionRange="*"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[mods]]
+    modId="lycanoculus"
+    version="1.1.0"
+    displayName="Lycanites Oculus Compat"
+    description="Fixes Lycanites Mobs rendering corruption when Oculus/Iris shaders are active."
+    authors="glennfo"

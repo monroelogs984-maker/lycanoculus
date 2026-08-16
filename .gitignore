@@ -1,0 +1,14 @@
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.idea/
+*.iml
+out/
+.vscode/
+run/
+runs/
+logs/
+.DS_Store
+
+# Local compile-time third-party jars — not redistributed, see README
+libs/*.jar

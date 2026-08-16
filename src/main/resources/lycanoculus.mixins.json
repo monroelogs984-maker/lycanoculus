@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8.5",
+    "package": "com.glennfo.lycanoculus.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [],
+    "client": [
+        "MixinCreatureRenderer",
+        "MixinProjectileSpriteRenderer",
+        "MixinVBOObjModel"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
